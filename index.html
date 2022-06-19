@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Tetris</title>
+</head>
+<body>
+    <img src="assets/Logo.png" id='logo'></img>
+    
+    <div id="mainGame"></div>
+    <div id="contain">
+        <div  id = "nextPiece">
+            <div class ='text' style="top: 130px; left:30px;position: absolute;">NEXT</div>
+        </div>
+        <div id ="lines">
+            <div class ='text' id="score" style="font-size: 50px; text-align: center; margin-left: 10px;">0</div>
+            <div class ='text' style="font-size: 20px; text-align: center; margin-top: 10px; ">Lines</div>
+        </div>
+        <div id ="level">
+            <div class ='text' id="lvl" style="font-size: 50px; text-align: center; margin-left: 10px;">0</div>
+            <div class ='text' style="font-size: 20px; text-align: center; margin-top: 10px; ">Level</div>
+        </div>
+        <div id="container"></div>
+    </div>
+    <audio src="assets/bgmusic.mp3" id="bgmusic"></audio>
+    <audio src="assets/clear.mp3" id="clear"></audio>
+</body>
+</html>

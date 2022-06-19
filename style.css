@@ -1,0 +1,147 @@
+div.row {
+    margin-bottom: -4px;
+}
+
+div.row div {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+div.brick {
+    background-color: rgb(78, 78, 78);
+}
+
+body {
+    background: url('assets/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+div.borderPiece {
+    background: url('assets/borderBlock.png');
+    background-color: rgb(78, 78, 78);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.Tpiece {
+    background: url('assets/brownBlock.png');
+    background-color: rgb(78, 78, 78);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.Zpiece {
+    background: url('assets/greenBlock.png');
+    background-color: rgb(78, 78, 78);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.Ppiece { 
+    background: url('assets/lightOBlock.png');
+    background-color: rgb(78, 78, 78);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.Lpiece {
+    background: url('assets/yellowBlock.png');
+    background-color: rgb(78, 78, 78);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.LRpiece {
+    background: url('assets/LGreenBlock.png');
+    background-color: rgb(78, 78, 78);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.Spiece {
+    background: url('assets/orangeBlock.png');
+    background-color: rgb(78, 78, 78);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nextPiece {
+    top: 115px;
+    left: 62%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-image: url('assets/Ppiece.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 6px 6px #1b1b1b;
+    border-radius: 20px;
+    border: 30px solid rgb(78, 78, 78);
+    border-bottom: 40px solid rgb(78, 78, 78);
+} 
+
+#container {
+    left: 30%;
+    top: 10px;
+    width: 55%;
+    height: 700px;
+    position: absolute;
+    background-color: rgb(73, 73, 73);
+    border-radius: 20px;
+    opacity: .5;
+    z-index: -1;
+}
+
+#lines {
+    left: 62%;
+    top: 330px;
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 6px 6px #1b1b1b;
+    border-radius: 20px;
+    border: 30px solid rgb(78, 78, 78);
+}
+
+#level {
+    left: 62%;
+    top: 470px;
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 6px 6px #1b1b1b;
+    border-radius: 20px;
+    border: 30px solid rgb(78, 78, 78);
+}
+
+#mainGame {
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.text {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+#logo {
+    display: block;
+    height: 100px;
+    width: 250px;
+    margin: auto;
+}
